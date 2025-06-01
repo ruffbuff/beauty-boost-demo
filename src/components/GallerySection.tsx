@@ -5,27 +5,27 @@ const GallerySection = () => {
   const galleryImages = [
     {
       url: "https://images.unsplash.com/photo-1485875437342-9b39470b3d95?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
-      alt: "Маникюр"
+      alt: "Manicure"
     },
     {
       url: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
-      alt: "Прическа"
+      alt: "Hairstyle"
     },
     {
       url: "https://images.unsplash.com/photo-1607748851616-9a00a44e2be9?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
-      alt: "Макияж"
+      alt: "Makeup"
     },
     {
       url: "https://images.unsplash.com/photo-1562322140-8baeececf3df?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
-      alt: "Окрашивание"
+      alt: "Hair Coloring"
     },
     {
       url: "https://images.unsplash.com/photo-1604654894610-df63bc536371?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
-      alt: "Дизайн ногтей"
+      alt: "Nail Design"
     },
     {
       url: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
-      alt: "Уход за кожей"
+      alt: "Skincare"
     }
   ];
 
@@ -34,10 +34,10 @@ const GallerySection = () => {
       <div className="max-w-7xl mx-auto container-padding">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl lg:text-5xl font-bold mb-6 gradient-text">
-            Наши работы
+            Our Work
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Посмотрите на результаты работы наших мастеров
+            See the results of our specialists' work
           </p>
         </div>
 

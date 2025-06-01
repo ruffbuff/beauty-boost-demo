@@ -3,10 +3,10 @@ import React from 'react';
 
 const AboutSection = () => {
   const stats = [
-    { number: "500+", label: "Довольных клиентов" },
-    { number: "3", label: "Года опыта" },
-    { number: "10+", label: "Видов услуг" },
-    { number: "4.9", label: "Рейтинг на Яндексе" }
+    { number: "500+", label: "Happy Clients" },
+    { number: "3", label: "Years of Experience" },
+    { number: "10+", label: "Types of Services" },
+    { number: "4.9", label: "Google Rating" }
   ];
 
   return (
@@ -15,17 +15,17 @@ const AboutSection = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div className="animate-fade-in">
             <h2 className="text-4xl lg:text-5xl font-bold mb-6 text-gray-800">
-              О нашем салоне
+              About Our Salon
             </h2>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              Bella Beauty — это современный салон красоты, где каждая деталь продумана 
-              для вашего комфорта и удовольствия. Мы используем только качественные материалы 
-              и современное оборудование.
+              Bella Beauty is a modern beauty salon where every detail is designed 
+              for your comfort and pleasure. We use only quality materials 
+              and modern equipment.
             </p>
             <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-              Наша команда состоит из опытных мастеров, которые постоянно совершенствуют 
-              свои навыки и следят за последними тенденциями в мире красоты. 
-              Мы создаем индивидуальный подход к каждому клиенту.
+              Our team consists of experienced professionals who constantly improve 
+              their skills and follow the latest trends in the beauty world. 
+              We create an individual approach for each client.
             </p>
             
             <div className="grid grid-cols-2 gap-6">
@@ -46,12 +46,12 @@ const AboutSection = () => {
             <div className="grid grid-cols-2 gap-4">
               <img 
                 src="https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
-                alt="Интерьер салона"
+                alt="Salon Interior"
                 className="w-full h-64 object-cover rounded-2xl shadow-lg"
               />
               <img 
                 src="https://images.unsplash.com/photo-1559599101-f09722fb4948?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
-                alt="Рабочее место мастера"
+                alt="Specialist Workplace"
                 className="w-full h-64 object-cover rounded-2xl shadow-lg mt-8"
               />
             </div>
